@@ -1,8 +1,11 @@
 {
-    "name": "My-Harp-App",
-    "version": "1.0.0",
-    "description": "A Harp App on Heroku",
-    "dependencies": {
-      "harp": "*"
-    }
+  "name": "my-static-site",
+  "version": "1.0.0",
+  "description": "This will load any static html site",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
   }
+}
